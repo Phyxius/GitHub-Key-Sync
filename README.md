@@ -4,3 +4,5 @@ This script synchronizes your GitHub authorized SSH keys with an `authorized_key
 
 ## Installation
 Configure `config.py` with appropriate information. It requires a URL to download, a path to a stored PGP public key, and a GitHub personal access token with permissions to read/write SSH keys. You will also need to `pip install requests PyGithub pgpy`.
+
+You probably will also want to add it to a scheduler like cron.
